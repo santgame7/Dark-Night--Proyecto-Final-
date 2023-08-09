@@ -7,7 +7,8 @@ public class ObjectPicker : MonoBehaviour
     public KeyCode pickupKey = KeyCode.E;
     public GameObject linterna;
     public Image interactionImage;
-    public Animator ani;// Agrega la referencia a la imagen en el Inspector
+    public Animator ani;
+    public GameObject puerta;// Agrega la referencia a la imagen en el Inspector
 
     private Transform pickedObject;
     private Camera mainCamera;
@@ -96,7 +97,11 @@ public class ObjectPicker : MonoBehaviour
             }
             if (hit.collider.CompareTag("Puerta"))
             {
-                
+                ani.SetBool("Abrio", true);
+            }
+            else
+            {
+                ani.SetBool("Abrio", false);
             }
         }
     }
