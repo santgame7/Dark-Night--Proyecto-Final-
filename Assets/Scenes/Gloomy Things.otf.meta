@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b5a0ee5c76ad636449e2b578c2416c0e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Gloomy Things
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: fb6bb92eb4c303849b4e6a398fd14378, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
