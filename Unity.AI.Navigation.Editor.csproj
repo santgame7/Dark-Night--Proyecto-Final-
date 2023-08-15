@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1EAD5B77-7277-F873-CE47-5723F50B2A9F}</ProjectGuid>
+    <ProjectGuid>{33705633-04A4-2200-ECD4-E805EC94A32E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.AI.Navigation.Editor</AssemblyName>
@@ -736,27 +736,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.AI.Navigation.csproj">
-      <Project>{C411B849-FA3D-11EC-FC6E-C598C9DE7EAC}</Project>
+      <Project>{43663185-529D-EB4E-2322-A360120F35FD}</Project>
       <Name>Unity.AI.Navigation</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj">
-      <Project>{D19FEC92-04D5-3A49-D04B-07026CAE8A38}</Project>
+      <Project>{6E6218EA-7710-AC81-5742-19BA1C2BB631}</Project>
       <Name>Unity.AI.Navigation.Editor.ConversionSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{90686497-EA1F-6722-E333-92464648D952}</Project>
+      <Project>{29732CB8-7E28-E2AA-95F7-49324EE08B64}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{3ACA62CB-3A2C-7CAF-CB9B-42B103A737D1}</Project>
+      <Project>{9C977C48-2878-F0C9-D7BE-033EA76EBCCA}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{49824D49-C15C-036B-EAEE-3CD92D2012C0}</Project>
+      <Project>{A516E318-5F44-4668-1E1C-9B1CEA325C0E}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{E192E398-B057-AEC8-D21B-56F865B74D89}</Project>
+      <Project>{7281961C-B468-38F2-DB0A-3D6E01DE3F38}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>

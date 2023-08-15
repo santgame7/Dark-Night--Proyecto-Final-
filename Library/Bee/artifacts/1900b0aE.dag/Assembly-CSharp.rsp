@@ -390,7 +390,6 @@
 "Assets/Recursos Slender/raycastSlender.cs"
 "Assets/Recursos Slender/slenderAIRevamped.cs"
 "Assets/Scrips 1/CambiarEscenaDespuesDeTiempo.cs"
-"Assets/Scrips 1/Lobby/Dialogos.cs"
 "Assets/Scrips 1/Lobby/llave.cs"
 "Assets/Scrips 1/Lobby/llave1.cs"
 "Assets/Scrips 1/Lobby/Portal.cs"
@@ -442,6 +441,7 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
 "Assets/Zona de Sonido/SoundZone.cs"
+"Assets/Zona de Texto/Dialogos.cs"
 -langversion:9.0
 
 /deterministic

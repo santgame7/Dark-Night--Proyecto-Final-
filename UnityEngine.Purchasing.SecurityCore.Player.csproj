@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{74676BC6-40DB-08F7-9119-E11CD4252233}</ProjectGuid>
+    <ProjectGuid>{FF9CC5F9-1D34-99B8-1C69-ECC0DFE1FE6E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing.SecurityCore</AssemblyName>
@@ -640,7 +640,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{AA48768B-28A1-96B7-AB3F-F3F69385B8C2}</Project>
+      <Project>{B303AD4A-4B1A-0736-F66F-C94F3B688E86}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

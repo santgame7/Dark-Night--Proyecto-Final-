@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4FA98DC4-A0A0-5287-7B78-AE9E4C750D6A}</ProjectGuid>
+    <ProjectGuid>{5E71D009-5ECC-A320-09AB-65DC38317859}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing.AppleMacosStub</AssemblyName>
@@ -638,15 +638,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Purchasing.Common.Player.csproj">
-      <Project>{0E8F033A-FDA7-50D0-81A9-BB01E3229F02}</Project>
+      <Project>{77CB3952-E6AC-2442-597D-69CA9263F7F0}</Project>
       <Name>Purchasing.Common.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.AppleCore.Player.csproj">
-      <Project>{9014FE57-F1D6-0FEC-8C41-083E641B166B}</Project>
+      <Project>{F8AB00EE-F319-777F-93AB-4FF34D15066A}</Project>
       <Name>UnityEngine.Purchasing.AppleCore.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{AA48768B-28A1-96B7-AB3F-F3F69385B8C2}</Project>
+      <Project>{B303AD4A-4B1A-0736-F66F-C94F3B688E86}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>
