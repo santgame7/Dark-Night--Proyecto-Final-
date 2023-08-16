@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-public class Dialogos : MonoBehaviour
+public class dialogos : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI txtmp;
     [SerializeField] string texto;

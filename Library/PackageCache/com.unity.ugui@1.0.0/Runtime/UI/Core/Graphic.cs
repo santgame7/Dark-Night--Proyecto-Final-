@@ -350,7 +350,7 @@ namespace UnityEngine.UI
 
         protected override void OnBeforeTransformParentChanged()
         {
-            GraphicRegistry.UnregisterGraphicForCanvas(canvas, this);
+            GraphicRegistry.DisableGraphicForCanvas(canvas, this);
             LayoutRebuilder.MarkLayoutForRebuild(rectTransform);
         }
 
@@ -869,9 +869,6 @@ namespace UnityEngine.UI
                     var group = components[i] as CanvasGroup;
                     if (group != null)
                     {
-                        if (!group.enabled)
-                            continue;
-
                         if (ignoreParentGroups == false && group.ignoreParentGroups)
                         {
                             ignoreParentGroups = true;
