@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FirstPersonLook : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class FirstPersonLook : MonoBehaviour
 
     Vector2 velocity;
     Vector2 frameVelocity;
+    public GameObject ObjetoMenuPausa;
+    public bool Pausa = false;
 
 
     void Reset()
@@ -35,5 +38,8 @@ public class FirstPersonLook : MonoBehaviour
         // Rotate camera up-down and controller left-right from velocity.
         transform.localRotation = Quaternion.AngleAxis(-velocity.y, Vector3.right);
         character.localRotation = Quaternion.AngleAxis(velocity.x, Vector3.up);
+
+
     }
+    
 }

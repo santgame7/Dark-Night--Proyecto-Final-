@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5EFC94DE-776A-D538-7DD0-34F9F4767183}</ProjectGuid>
+    <ProjectGuid>{C6739888-2E8D-D83D-6B05-4C394206849E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,22 +53,25 @@
     <UnityVersion>2022.3.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scrips 1\Lobby\llave1.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\InterfaZ\Scripts\Creditos.cs" />
     <Compile Include="Assets\Scrips 1\Lobby\llave.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\LobbyUltimo 1\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\InterfaZ\Scripts\CargarNivel_1.cs" />
     <Compile Include="Assets\LobbyUltimo 1\Scripts\Puertas.cs" />
+    <Compile Include="Assets\InterfaZ\Scripts\Menu_1.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Scrips 1\Lobby\Portal.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\InterfaZ\Scripts\MenuInicial_1.cs" />
     <Compile Include="Assets\Scrips 1\Scripts Player\Components\GroundCheck.cs" />
     <Compile Include="Assets\Scrips 1\Scripts Player\FirstPersonMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
@@ -76,8 +79,11 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Zona de Texto\dialogos.cs" />
     <Compile Include="Assets\New Folder\Enemigo Nextbot\AI_Nextbot.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\InterfaZ\Scripts\SonidoMenu.cs" />
+    <Compile Include="Assets\InterfaZ\Scripts\PantallaCarga.cs" />
     <Compile Include="Assets\LobbyUltimo 1\Cartel\ControladorObjetivos.cs" />
     <Compile Include="Assets\Scrips 1\Menu\Volumen.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
@@ -92,10 +98,10 @@
     <Compile Include="Assets\InterfaZ\Scripts\LogicaFullScreen.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Mini First Person Controller\Linterna\ToggleLight.cs" />
-    <Compile Include="Assets\InterfaZ\Scripts\CargarNivel.cs" />
     <Compile Include="Assets\Scrips 1\Scripts Player\Components\Crouch.cs" />
     <Compile Include="Assets\InterfaZ\Scripts\LogicaVolumen.cs" />
     <Compile Include="Assets\New Folder\Scipts\PlayerController.cs" />
+    <Compile Include="Assets\InterfaZ\Scripts\CodeQuality.cs" />
     <Compile Include="Assets\Zona de Sonido\SoundZone.cs" />
     <Compile Include="Assets\Scrips 1\CambiarEscenaDespuesDeTiempo.cs" />
     <Compile Include="Assets\LobbyUltimo 1\Scripts\TutorialControler.cs" />
@@ -103,21 +109,23 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\LobbyUltimo 1\Scripts\LLaves.cs" />
-    <Compile Include="Assets\InterfaZ\Scripts\MenuInicial.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\InterfaZ\Scripts\Brillo_!.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\playerMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Recursos Slender\raycastSlender.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\Scrips 1\Lobby\Dialogos.cs" />
     <Compile Include="Assets\New Folder\Scipts\ControlDeBotones.cs" />
     <Compile Include="Assets\Scrips 1\Scripts Player\DetectorLibros.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-    <Compile Include="Assets\Zona de Texto\Dialogos.cs" />
     <Compile Include="Assets\LobbyUltimo 1\Scripts\Interactuable.cs" />
     <Compile Include="Assets\Scrips 1\Lobby\Puerta.cs" />
+    <Compile Include="Assets\InterfaZ\Scripts\Codigo_Pausa.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Scrips 1\Scripts Player\RaycastPickup.cs" />
     <Compile Include="Assets\LobbyUltimo 1\Scripts\Enemy_AI.cs" />
@@ -126,6 +134,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\Mini First Person Controller\ObjectPicker.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\MouseLook.cs" />
     <Compile Include="Assets\Mini First Person Controller\Cajas\ChangeColorOnCollision.cs" />
     <Compile Include="Assets\Scrips 1\Scripts Player\Components\Jump.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
@@ -139,11 +148,12 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader_WebGl.shader" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-    <None Include="Assets\URP Nature Shader Set\Usage documents.txt" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -153,11 +163,13 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader_VS.shader" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader.shader" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-    <None Include="Assets\URP Nature Shader Set\Shaders\Toon\Lighting.hlsl" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -168,18 +180,26 @@
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader.shader" />
+    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader.shader" />
+    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader_VS.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader_VS.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader_VS.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\LobbyUltimo 1\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\VS_indirect.cginc" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader_VS.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
   </ItemGroup>
@@ -757,75 +777,75 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.Purchasing.Stores.Player.csproj">
-      <Project>{F93799B2-657F-65E3-FCA0-398ED745191D}</Project>
+      <Project>{7E5724F3-2BAD-3883-9075-3DEABAA84400}</Project>
       <Name>UnityEngine.Purchasing.Stores.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.AI.Navigation.Player.csproj">
-      <Project>{E7A07F3C-E7E5-9350-28A0-0BD2112835B9}</Project>
+      <Project>{4B36EB55-FFE4-7224-0A53-C31BF0FB6027}</Project>
       <Name>Unity.AI.Navigation.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.XR.LegacyInputHelpers.Player.csproj">
-      <Project>{FB8681E6-0876-A4C3-7AB3-A34B5DB9EF75}</Project>
+      <Project>{711AFE83-38B5-EFC2-E728-0D3972796EE8}</Project>
       <Name>UnityEngine.XR.LegacyInputHelpers.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.Player.csproj">
-      <Project>{9F6C2324-1D21-3AA2-5FCA-01C47A2D4939}</Project>
+      <Project>{CC570F2E-AA57-A385-AF19-F6C106FA50C6}</Project>
       <Name>UnityEngine.Purchasing.SecurityStub.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Analytics.DataPrivacy.Player.csproj">
-      <Project>{9271D404-EEB9-06E7-9A7E-B968B6E76FFB}</Project>
+      <Project>{31B9A6A3-B73F-73A7-956F-19B7E9DBF5E1}</Project>
       <Name>Unity.Analytics.DataPrivacy.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{FAABF7E3-1976-4EFF-4B66-C4F704FBFDC7}</Project>
+      <Project>{455D919F-7EC9-2854-8246-E90D2274659E}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Purchasing.Common.Player.csproj">
-      <Project>{77CB3952-E6AC-2442-597D-69CA9263F7F0}</Project>
+      <Project>{96186C86-EF60-CBD3-F5A3-2E018BE7AB4D}</Project>
       <Name>Purchasing.Common.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.SpatialTracking.Player.csproj">
-      <Project>{3E88FAB2-E417-9A27-222C-9E0A396234DC}</Project>
+      <Project>{A84B9E52-AE50-83E4-A1B3-4AFE94ABB469}</Project>
       <Name>UnityEngine.SpatialTracking.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Advertisements.Player.csproj">
-      <Project>{AF152FA1-852E-0B55-6128-9D1A72618493}</Project>
+      <Project>{359E2EBD-BD9C-B2EA-5C72-D242C8C92601}</Project>
       <Name>UnityEngine.Advertisements.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{B303AD4A-4B1A-0736-F66F-C94F3B688E86}</Project>
+      <Project>{F868675C-E728-DE29-477A-4A6A5C4B11A8}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Player.csproj">
-      <Project>{80BF464D-95E6-A006-22C4-DFF72447CBD9}</Project>
+      <Project>{2E3D30A7-8280-587C-5546-B6CCC557C607}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{18AB1913-FB92-57E9-D3FD-46A5787ACECF}</Project>
+      <Project>{0827BF1C-80A4-F176-6465-6C1C76CAE85C}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Analytics.Player.csproj">
-      <Project>{218C78E9-9515-345F-2B62-28AC6609CD1B}</Project>
+      <Project>{95E8FB22-0E56-06CC-4BFE-BF2F8ECC2785}</Project>
       <Name>Unity.Services.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.Player.csproj">
-      <Project>{FF9CC5F9-1D34-99B8-1C69-ECC0DFE1FE6E}</Project>
+      <Project>{762DC750-A5A8-E69D-6507-7A44EF8A2C3E}</Project>
       <Name>UnityEngine.Purchasing.SecurityCore.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Codeless.Player.csproj">
-      <Project>{B86E4ADF-FAB0-FF25-8FDC-6DB374079C72}</Project>
+      <Project>{51D1E096-869D-6C91-E938-8519A4555FE2}</Project>
       <Name>UnityEngine.Purchasing.Codeless.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
-      <Project>{5ED92A30-8E4F-350A-6094-146AD6BBD5E8}</Project>
+      <Project>{394238EB-6D5C-A110-7C7F-C31C61DD4FC1}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.Player.csproj">
-      <Project>{2DECD89B-998A-0A8C-361A-E69475C0852D}</Project>
+      <Project>{94B11B7E-574B-F1D7-58BA-57721CE8C588}</Project>
       <Name>Unity.Services.Core.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Player.csproj">
-      <Project>{2C556895-B25E-D2A8-1A0F-34B4C7F9F1AF}</Project>
+      <Project>{635E3601-7493-452F-898D-0C30D905CBE0}</Project>
       <Name>UnityEngine.Purchasing.Player</Name>
     </ProjectReference>
   </ItemGroup>

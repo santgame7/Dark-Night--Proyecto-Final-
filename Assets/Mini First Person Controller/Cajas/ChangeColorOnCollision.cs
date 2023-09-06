@@ -18,10 +18,15 @@ public class ChangeColorOnCollision : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         // Verificamos si el objeto con el que colisionamos tiene el tag "cosa"
-        if (collision.gameObject.CompareTag("Cosa"))
+        if (collision.gameObject.CompareTag("Cosa") || collision.gameObject.CompareTag("Pickable"))
         {
             // Cambiamos temporalmente el color del objeto a collisionColor
             renderer.material.color = collisionColor;
+            isRed = true;
+        }
+        if (collision.gameObject.CompareTag("Suelo"))
+        {
+            // Cambiamos temporalmente el color del objeto a collisionColor
             isRed = true;
         }
     }
@@ -29,7 +34,7 @@ public class ChangeColorOnCollision : MonoBehaviour
     private void OnCollisionExit(Collision collision)
     {
         // Verificamos si dejamos de colisionar con un objeto que tenga el tag "cosa"
-        if (collision.gameObject.CompareTag("Cosa"))
+        if (collision.gameObject.CompareTag("Cosa") || collision.gameObject.CompareTag("Pickable"))
         {
             // Restauramos el color original del objeto
             renderer.material.color = originalColor;
@@ -41,6 +46,10 @@ public class ChangeColorOnCollision : MonoBehaviour
                 rigidbody.velocity = Vector3.zero; // Detenemos la velocidad del objeto
                 rigidbody.angularVelocity = Vector3.zero; // Detenemos la velocidad angular del objeto
             }
+        }
+        if (collision.gameObject.CompareTag("Suelo"))
+        {
+            isRed = false;
         }
     }
 

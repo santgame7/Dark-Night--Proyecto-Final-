@@ -5,9 +5,9 @@ public class ObjectPicker : MonoBehaviour
 {
     public float pickupDistance = 2f;
     public KeyCode pickupKey = KeyCode.E;
-    public GameObject linterna;
+    private GameObject linterna;
     public Image interactionImage;
-    public GameObject puerta;
+    private GameObject puerta;
 
     private Transform pickedObject;
     private Camera mainCamera;
@@ -137,7 +137,7 @@ public class ObjectPicker : MonoBehaviour
         Collider[] colliders = Physics.OverlapSphere(pickedObject.position, 0.5f);
         foreach (var collider in colliders)
         {
-            if (collider.CompareTag("Cosa"))
+            if (collider.CompareTag("Cosa") || collider.gameObject.CompareTag("Pickable") || collider.gameObject.CompareTag("Suelo"))
             {
                 return true;
             }

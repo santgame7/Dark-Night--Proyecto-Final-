@@ -21,9 +21,20 @@ public class TutorialControler : MonoBehaviour
         Cansancio.enabled = false;
         botonInteraccion.enabled = false;
         insTutorial.SetActive(false);
-
         Cursor.lockState = CursorLockMode.None;
+
         Cursor.visible = true;
+    }
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.Escape))
+        {
+            Destroy(tutorial);
+            insTutorial.SetActive(true);
+
+            Cursor.lockState = CursorLockMode.Confined;
+            Cursor.visible = false;
+        }
     }
     public void Tutorial()
     {

@@ -57,7 +57,7 @@ public class DetectorLibros : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(Camera.main.transform.position, puntoImpacto - Camera.main.transform.position, out hit, 1f))
             {
-                if (hit.collider.CompareTag("libro"))
+                if (hit.collider.CompareTag("Libro"))
                 {
                     contadorLibros++;
                     Debug.Log("Libro recolectado. Contador: " + contadorLibros);

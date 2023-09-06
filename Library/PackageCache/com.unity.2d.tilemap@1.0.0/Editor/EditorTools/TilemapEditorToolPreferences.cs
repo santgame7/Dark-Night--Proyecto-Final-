@@ -18,8 +18,8 @@ namespace UnityEditor.Tilemaps
             public static readonly string defaultToolsEditorPref = "TilemapEditorTool.DefaultTools";
 
             public static readonly GUIContent defaultToolsLabel = EditorGUIUtility.TrTextContent("Default Tile Palette Tools");
-            public static readonly GUIContent addLabel = EditorGUIUtility.TrTextContent("+", "Add to Defaults");
-            public static readonly GUIContent removeLabel = EditorGUIUtility.TrTextContent("-", "Remove from Defaults");
+            public static readonly GUIContent addLabel = EditorGUIUtility.TrTextContent("<<", "Add to Defaults");
+            public static readonly GUIContent removeLabel = EditorGUIUtility.TrTextContent(">>", "Remove from Defaults");
             public static readonly GUIContent saveLabel = EditorGUIUtility.TrTextContent("Save", "Save Defaults");
             public static readonly GUIContent revertLabel = EditorGUIUtility.TrTextContent("Revert", "Revert Changes");
             public static readonly GUIContent resetLabel = EditorGUIUtility.TrTextContent("Reset", "Reset Defaults");
@@ -37,6 +37,8 @@ namespace UnityEditor.Tilemaps
         {
             return instance.CreateDefaultTilemapEditorTools();
         }
+
+        internal static event Action tilemapEditorToolsChanged;
 
         private ReorderableList m_DefaultTypes;
         private ReorderableList m_OtherTypes;
@@ -155,6 +157,11 @@ namespace UnityEditor.Tilemaps
             return s_DefaultTilemapEditorTools;
         }
 
+        internal void UpdateTilemapEditorToolsChange()
+        {
+            tilemapEditorToolsChanged?.Invoke();
+        }
+
         private void OnDrawDefaultElement(Rect rect, int i, bool isactive, bool isfocused)
         {
             if (i < 0 || i >= m_DefaultTilemapEditorToolTypes.Count)
@@ -209,7 +216,7 @@ namespace UnityEditor.Tilemaps
 
             m_DefaultTypes.DoLayoutList();
 
-            EditorGUILayout.BeginVertical();
+            EditorGUILayout.BeginVertical(GUILayout.Width(100));
             if (GUILayout.Button(TilemapEditorToolProperties.addLabel))
             {
                 var otherIndex = m_OtherTypes.index;
@@ -285,6 +292,7 @@ namespace UnityEditor.Tilemaps
             ClearExistingDefaultTilemapEditorTools();
             LoadDefaultEditorToolTypes();
             DeactivateToolIfNotInDefault();
+            UpdateTilemapEditorToolsChange();
         }
 
         internal void ResetTilemapEditorToolPreferences()
@@ -293,6 +301,7 @@ namespace UnityEditor.Tilemaps
             ClearExistingDefaultTilemapEditorTools();
             LoadDefaultEditorToolTypes();
             DeactivateToolIfNotInDefault();
+            UpdateTilemapEditorToolsChange();
         }
 
         private static void DeleteTilemapEditorToolPreferencesAsset()

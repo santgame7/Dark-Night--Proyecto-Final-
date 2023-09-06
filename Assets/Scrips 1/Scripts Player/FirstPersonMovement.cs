@@ -18,7 +18,7 @@ public class FirstPersonMovement : MonoBehaviour
     public float currentStamina;
     public float staminaRecoveryRate = 10;
 
-    Rigidbody rigidbody;
+     new Rigidbody rigidbody;
     public List<System.Func<float>> speedOverrides = new List<System.Func<float>>();
 
     void Awake()

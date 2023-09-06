@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{164ADC88-C830-F6C8-AFD2-FFAA14C919A1}</ProjectGuid>
+    <ProjectGuid>{E96F860E-FDA3-3DA5-2473-857B81B8D5DE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Registration</AssemblyName>
@@ -53,7 +53,6 @@
     <UnityVersion>2022.3.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -713,47 +712,47 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{D6F72503-AC17-F1FA-1A4E-C861CCDD724F}</Project>
+      <Project>{09D5B79C-294F-52AC-4D68-FB5AA46B5E96}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Device.csproj">
-      <Project>{CBE19C0A-5180-460D-0DBB-D5A01AF04CF0}</Project>
+      <Project>{3014986E-2783-47B2-B0BE-1A2F78099BB4}</Project>
       <Name>Unity.Services.Core.Device</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.csproj">
-      <Project>{68D1B645-02B1-C268-05E3-B4F89E6AF14A}</Project>
+      <Project>{890342D5-A78F-B720-3046-EA637D23B79B}</Project>
       <Name>Unity.Services.Core.Environments</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Internal.csproj">
-      <Project>{0F87797B-3E84-D9AE-C50A-B04944614D56}</Project>
+      <Project>{634D8F24-000E-B804-EFAE-C55507AF77CC}</Project>
       <Name>Unity.Services.Core.Environments.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Configuration.csproj">
-      <Project>{692BA4EC-07B7-28A3-EC50-151F7FDEE60C}</Project>
+      <Project>{E5BCC90B-BF79-7290-63D1-4C4728A5D620}</Project>
       <Name>Unity.Services.Core.Configuration</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{E9558EAB-FA01-CC91-A60F-1F94BC6F5E57}</Project>
+      <Project>{D9A4806A-15F6-21FF-A156-1307D6C45AC4}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Telemetry.csproj">
-      <Project>{920502C5-4C50-C8CA-EE63-B7BB27CBC754}</Project>
+      <Project>{34E70DF5-5B46-86C9-3113-F378F05319A6}</Project>
       <Name>Unity.Services.Core.Telemetry</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Scheduler.csproj">
-      <Project>{D34FA636-0532-9EFE-9F5B-C0A4AD433FC9}</Project>
+      <Project>{E22FB094-10C2-E6BB-11C5-2AE31CAA9FCB}</Project>
       <Name>Unity.Services.Core.Scheduler</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Threading.csproj">
-      <Project>{9FD3E80D-2436-2644-27AA-7BCC2E2B9FE9}</Project>
+      <Project>{C323E129-9B3A-3F7B-521B-39D8C1E88D65}</Project>
       <Name>Unity.Services.Core.Threading</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{29732CB8-7E28-E2AA-95F7-49324EE08B64}</Project>
+      <Project>{F710E2E7-560D-D300-A7AF-01FBDC4B9D45}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9C977C48-2878-F0C9-D7BE-033EA76EBCCA}</Project>
+      <Project>{5CEC4FCA-213B-A693-3670-280931E2AC39}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

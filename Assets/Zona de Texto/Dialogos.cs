@@ -8,6 +8,10 @@ public class dialogos : MonoBehaviour
     [SerializeField] string texto;
     private bool textoMostrado = false; // Para controlar si el texto ya ha sido mostrado
 
+    private void Start()
+    {
+        txtmp.text = ""; // Borra el texto después de 60 segundos
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && !textoMostrado) // Cambia "Jugador" por la etiqueta correcta del objeto que activará el trigger

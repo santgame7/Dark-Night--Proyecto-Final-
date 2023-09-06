@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{97931D20-8A6B-E60F-705F-BDCF3E1C112F}</ProjectGuid>
+    <ProjectGuid>{CFFD3446-F8B4-DAC1-C8A7-87231A773348}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing.AppleStub</AssemblyName>
@@ -53,7 +53,6 @@
     <UnityVersion>2022.3.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -713,19 +712,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Purchasing.Common.csproj">
-      <Project>{DFC018A9-20BA-BAE8-5F8F-E7C2F6BA34E9}</Project>
+      <Project>{ABD77D41-C362-307D-9C4B-77DC0F65BAB2}</Project>
       <Name>Purchasing.Common</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.AppleCore.csproj">
-      <Project>{226C2875-E031-AD6A-4D2A-0A6352C049B5}</Project>
+      <Project>{6B36F2A1-C214-1126-BAC4-174A3AECC9BE}</Project>
       <Name>UnityEngine.Purchasing.AppleCore</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{29732CB8-7E28-E2AA-95F7-49324EE08B64}</Project>
+      <Project>{F710E2E7-560D-D300-A7AF-01FBDC4B9D45}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9C977C48-2878-F0C9-D7BE-033EA76EBCCA}</Project>
+      <Project>{5CEC4FCA-213B-A693-3670-280931E2AC39}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

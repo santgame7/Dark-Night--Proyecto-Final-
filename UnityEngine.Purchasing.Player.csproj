@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2C556895-B25E-D2A8-1A0F-34B4C7F9F1AF}</ProjectGuid>
+    <ProjectGuid>{635E3601-7493-452F-898D-0C30D905CBE0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing</AssemblyName>
@@ -53,7 +53,6 @@
     <UnityVersion>2022.3.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -712,27 +711,27 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Purchasing.Common.Player.csproj">
-      <Project>{77CB3952-E6AC-2442-597D-69CA9263F7F0}</Project>
+      <Project>{96186C86-EF60-CBD3-F5A3-2E018BE7AB4D}</Project>
       <Name>Purchasing.Common.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Player.csproj">
-      <Project>{FAABF7E3-1976-4EFF-4B66-C4F704FBFDC7}</Project>
+      <Project>{455D919F-7EC9-2854-8246-E90D2274659E}</Project>
       <Name>Unity.Services.Core.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Player.csproj">
-      <Project>{18AB1913-FB92-57E9-D3FD-46A5787ACECF}</Project>
+      <Project>{0827BF1C-80A4-F176-6465-6C1C76CAE85C}</Project>
       <Name>Unity.Services.Core.Environments.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Internal.Player.csproj">
-      <Project>{AF8F64AE-389A-75A7-FAEC-97601760627A}</Project>
+      <Project>{BC5D6E0F-2999-AF09-9B86-44990456CA60}</Project>
       <Name>Unity.Services.Core.Internal.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Analytics.Player.csproj">
-      <Project>{218C78E9-9515-345F-2B62-28AC6609CD1B}</Project>
+      <Project>{95E8FB22-0E56-06CC-4BFE-BF2F8ECC2785}</Project>
       <Name>Unity.Services.Analytics.Player</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{B303AD4A-4B1A-0736-F66F-C94F3B688E86}</Project>
+      <Project>{F868675C-E728-DE29-477A-4A6A5C4B11A8}</Project>
       <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
   </ItemGroup>

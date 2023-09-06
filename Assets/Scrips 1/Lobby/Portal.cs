@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class Portal : MonoBehaviour
 {
     public int Nivel;
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -14,4 +16,6 @@ public class Portal : MonoBehaviour
             SceneManager.LoadScene(Nivel);
         }
     }
+    
+
 }

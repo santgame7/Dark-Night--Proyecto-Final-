@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{86462916-AD4F-25B5-F8B9-9439E2649FFF}</ProjectGuid>
+    <ProjectGuid>{B24C46B1-B2F6-7529-C7D5-F85CE68DBF06}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.Purchasing.Stores</AssemblyName>
@@ -53,7 +53,6 @@
     <UnityVersion>2022.3.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -836,55 +835,55 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.Purchasing.AppleCore.csproj">
-      <Project>{226C2875-E031-AD6A-4D2A-0A6352C049B5}</Project>
+      <Project>{6B36F2A1-C214-1126-BAC4-174A3AECC9BE}</Project>
       <Name>UnityEngine.Purchasing.AppleCore</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.AppleMacosStub.csproj">
-      <Project>{747F4591-22E1-2CC2-0FAA-314EBFEF8493}</Project>
+      <Project>{5C182108-7221-45C3-F7DE-7E6E66C2B1B4}</Project>
       <Name>UnityEngine.Purchasing.AppleMacosStub</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.AppleStub.csproj">
-      <Project>{97931D20-8A6B-E60F-705F-BDCF3E1C112F}</Project>
+      <Project>{CFFD3446-F8B4-DAC1-C8A7-87231A773348}</Project>
       <Name>UnityEngine.Purchasing.AppleStub</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.csproj">
-      <Project>{1588455B-FB2C-EA71-B482-1CB9ABDD5E46}</Project>
+      <Project>{C3F752A9-994F-4D46-076D-D4EE38DC31D4}</Project>
       <Name>UnityEngine.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="Purchasing.Common.csproj">
-      <Project>{DFC018A9-20BA-BAE8-5F8F-E7C2F6BA34E9}</Project>
+      <Project>{ABD77D41-C362-307D-9C4B-77DC0F65BAB2}</Project>
       <Name>Purchasing.Common</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.csproj">
-      <Project>{266AEA6E-95FC-C3E0-E38E-0A239C4AB9FA}</Project>
+      <Project>{9AD11669-C193-0D51-7067-7B24FB17A11F}</Project>
       <Name>UnityEngine.Purchasing.SecurityCore</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.csproj">
-      <Project>{A28C3714-CC01-DDB7-FE19-BD2F8890BA9A}</Project>
+      <Project>{42019B8E-DD40-68AE-3F1E-0D180F132D3E}</Project>
       <Name>UnityEngine.Purchasing.SecurityStub</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.WinRTCore.csproj">
-      <Project>{7E542D87-AD82-58EA-7673-F544EB113544}</Project>
+      <Project>{D7E8232C-805A-77F9-9832-1C5007A3C02D}</Project>
       <Name>UnityEngine.Purchasing.WinRTCore</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.WinRTStub.csproj">
-      <Project>{1A6C07E0-43F5-DFE1-C992-5DE4BA3BF59F}</Project>
+      <Project>{D851A190-0B62-9D91-56B1-3BA6797C0B87}</Project>
       <Name>UnityEngine.Purchasing.WinRTStub</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{E9558EAB-FA01-CC91-A60F-1F94BC6F5E57}</Project>
+      <Project>{D9A4806A-15F6-21FF-A156-1307D6C45AC4}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{D6F72503-AC17-F1FA-1A4E-C861CCDD724F}</Project>
+      <Project>{09D5B79C-294F-52AC-4D68-FB5AA46B5E96}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{29732CB8-7E28-E2AA-95F7-49324EE08B64}</Project>
+      <Project>{F710E2E7-560D-D300-A7AF-01FBDC4B9D45}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9C977C48-2878-F0C9-D7BE-033EA76EBCCA}</Project>
+      <Project>{5CEC4FCA-213B-A693-3670-280931E2AC39}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>

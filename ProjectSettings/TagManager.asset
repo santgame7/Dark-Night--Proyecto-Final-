@@ -8,6 +8,8 @@ TagManager:
   - Linterna
   - Pickable
   - Cosa
+  - Libro
+  - Suelo
   layers:
   - Default
   - TransparentFX

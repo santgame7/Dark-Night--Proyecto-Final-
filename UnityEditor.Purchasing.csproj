@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{62834B9F-D3BA-D87B-299B-3C4A6D7DA3D6}</ProjectGuid>
+    <ProjectGuid>{F5E13FD7-294C-ECF8-BD4E-19F875C43AB4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEditor.Purchasing</AssemblyName>
@@ -53,7 +53,6 @@
     <UnityVersion>2022.3.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.6f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -812,47 +811,47 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.Purchasing.csproj">
-      <Project>{1588455B-FB2C-EA71-B482-1CB9ABDD5E46}</Project>
+      <Project>{C3F752A9-994F-4D46-076D-D4EE38DC31D4}</Project>
       <Name>UnityEngine.Purchasing</Name>
     </ProjectReference>
     <ProjectReference Include="Purchasing.Common.csproj">
-      <Project>{DFC018A9-20BA-BAE8-5F8F-E7C2F6BA34E9}</Project>
+      <Project>{ABD77D41-C362-307D-9C4B-77DC0F65BAB2}</Project>
       <Name>Purchasing.Common</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityCore.csproj">
-      <Project>{266AEA6E-95FC-C3E0-E38E-0A239C4AB9FA}</Project>
+      <Project>{9AD11669-C193-0D51-7067-7B24FB17A11F}</Project>
       <Name>UnityEngine.Purchasing.SecurityCore</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.SecurityStub.csproj">
-      <Project>{A28C3714-CC01-DDB7-FE19-BD2F8890BA9A}</Project>
+      <Project>{42019B8E-DD40-68AE-3F1E-0D180F132D3E}</Project>
       <Name>UnityEngine.Purchasing.SecurityStub</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Stores.csproj">
-      <Project>{86462916-AD4F-25B5-F8B9-9439E2649FFF}</Project>
+      <Project>{B24C46B1-B2F6-7529-C7D5-F85CE68DBF06}</Project>
       <Name>UnityEngine.Purchasing.Stores</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.Purchasing.Codeless.csproj">
-      <Project>{7CC4D7BC-A336-1D45-91D4-FA2647BF1CA4}</Project>
+      <Project>{11479D88-B69E-D20B-105C-8E48994EED94}</Project>
       <Name>UnityEngine.Purchasing.Codeless</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Editor.csproj">
-      <Project>{2FF07F40-53A4-E48A-F5EE-3773ED2FE9D3}</Project>
+      <Project>{91650A11-89A6-D100-5F01-837C273BCE06}</Project>
       <Name>Unity.Services.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{29732CB8-7E28-E2AA-95F7-49324EE08B64}</Project>
+      <Project>{F710E2E7-560D-D300-A7AF-01FBDC4B9D45}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{9C977C48-2878-F0C9-D7BE-033EA76EBCCA}</Project>
+      <Project>{5CEC4FCA-213B-A693-3670-280931E2AC39}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{A516E318-5F44-4668-1E1C-9B1CEA325C0E}</Project>
+      <Project>{6DE15E5F-7218-468A-6F1B-A2F331D2FE68}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{7281961C-B468-38F2-DB0A-3D6E01DE3F38}</Project>
+      <Project>{055AED77-9456-B5E0-1FFD-24A87495478A}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
