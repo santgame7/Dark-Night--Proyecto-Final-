@@ -5,7 +5,11 @@ public class ObjectPicker : MonoBehaviour
 {
     public float pickupDistance = 2f;
     public KeyCode pickupKey = KeyCode.E;
+<<<<<<< Updated upstream
     private GameObject linterna;
+=======
+    [SerializeField] GameObject linterna;
+>>>>>>> Stashed changes
     public Image interactionImage;
     private GameObject puerta;
 
@@ -87,7 +91,7 @@ public class ObjectPicker : MonoBehaviour
             else if (hit.collider.CompareTag("Linterna") && !isHolding)
             {
                 Destroy(hit.collider.gameObject);
-                ActivateNewObject();
+                linterna.SetActive(true);
             }
             if (hit.collider.CompareTag("Puerta"))
             {
